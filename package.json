@@ -1,28 +1,29 @@
 {
-  "name": "cy-dashboard",
-  "version": "1.0.0",
-  "description": "cypress with dashboard service",
-  "main": "index.js",
-  "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lidiia92/cy-dashboard.git"
-  },
-  "keywords": [
-    "cypress",
-    "dashboard"
-  ],
-  "author": "Lidiia Gallagher",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Lidiia92/cy-dashboard/issues"
-  },
-  "homepage": "https://github.com/Lidiia92/cy-dashboard#readme",
-  "dependencies": {
-    "cypress": "^4.5.0",
-    "prettier": "^2.0.5"
-  }
+	"name": "cy-dashboard",
+	"version": "1.0.0",
+	"description": "cypress with dashboard service",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"cy:run-dashboard": "cypress run --record --key 967cbda8-28d3-4019-a633-c06943537679"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Lidiia92/cy-dashboard.git"
+	},
+	"keywords": [
+		"cypress",
+		"dashboard"
+	],
+	"author": "Lidiia Gallagher",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Lidiia92/cy-dashboard/issues"
+	},
+	"homepage": "https://github.com/Lidiia92/cy-dashboard#readme",
+	"dependencies": {
+		"cypress": "^4.5.0",
+		"prettier": "^2.0.5"
+	}
 }
