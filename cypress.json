@@ -1,7 +1,7 @@
 {
-  "video": false,
-  "defaultCommandTimeout": 5000,
-  "pageLoadTimeout": 10000,
-  "waitForAnimations": true,
-  "projectId": "ckjwpz"
+	"video": true,
+	"defaultCommandTimeout": 5000,
+	"pageLoadTimeout": 10000,
+	"waitForAnimations": true,
+	"projectId": "ckjwpz"
 }
