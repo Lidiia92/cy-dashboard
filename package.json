@@ -7,7 +7,8 @@
 		"cy:open": "cypress open",
 		"cy:run:chrome": "cypress run --browser chrome",
 		"cy:run:firefox": "cypress run --browser firefox",
-		"cy:run-dashboard": "cypress run --record --key 967cbda8-28d3-4019-a633-c06943537679"
+		"cy:run-dashboard": "cypress run --record --key 967cbda8-28d3-4019-a633-c06943537679",
+		"start-jenkins": "java --jar jenkins.war -httpPort=8080 --enable-future-java"
 	},
 	"repository": {
 		"type": "git",
